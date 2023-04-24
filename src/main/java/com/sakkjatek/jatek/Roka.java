@@ -1,9 +1,6 @@
 package com.sakkjatek.jatek;
 
-import javafx.fxml.FXML;
-import javafx.scene.image.ImageView;
-
-public class Kutya {
+public class Roka {
     private int height = 80;
     private int width = 80;
     private int columnLocation;
@@ -11,7 +8,7 @@ public class Kutya {
     private String name;
     private int number;
     // Konstruktor
-    public Kutya(int columnLocation, int rowLocation, String name,int number) {
+    public Roka(int columnLocation, int rowLocation, String name,int number) {
         this.columnLocation = columnLocation;
         this.rowLocation = rowLocation;
         this.name = name;
@@ -35,7 +32,7 @@ public class Kutya {
         return columnLocation;
     }
     public void setnumber(int number) {
-         this.number = number;
+        this.number = number;
     }
 
 
